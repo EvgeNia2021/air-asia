@@ -1,4 +1,154 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 body {
-  
+  font-family: 'Open Sans', Helvetica, sans-serif;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  background: #001821;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1141px;
+}
+
+.header {
+  height: 123px;
+  position: relative;
+  margin-bottom: 131px;
+}
+
+.logo__pic {
+  display: block;
+  position: relative;
+  width: 85px;
+  height: 36px;
+  top: 29px;
+  left: 0;
+}
+
+.menu {
+  position: absolute;
+  top: 42px;
+  left: 164px;
+}
+
+.contacts {
+  position: absolute;
+  top: 26px;
+  right: 0;
+  font-style: normal;
+  text-align: right;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 54px;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+color: #DA0100;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 2px;
+}
+
+.contacts__workhours {
+  font-size: 13px;
+  font-weight: normal;
+}
+
+.contacts__workhours:hover {
+background-color: #EDEDED;
+}
+
+.tours {
+  width: 511px;
+  height: 333px;
+}
+
+.tours__header {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.1;
+margin-bottom: 18px;
+}
+
+.tours__motto {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 33px;
+}
+
+.tours__button {
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 40px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+  .tours__button:hover {
+    background: #DA0100;
+  }
+
+.htours {
+margin-bottom: 127px;
+margin-right: 12px;
+
+}
+
+.htours__header-name {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 51px;
+}
+
+.htours__header-icon {
+
+margin-left: 285px;
+}
+
+.htours__item {
+  min-height: 449px;
+  width: 362px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 4px;
+}
+
+.htours__pic {
+  min-height: 144px;
+  margin-bottom: 33px;
 }
