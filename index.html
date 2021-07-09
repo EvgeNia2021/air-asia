@@ -6,7 +6,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/air-asia/main.css">
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <div class="wrapper">
@@ -45,13 +45,13 @@
           <div class="container">
           <h1 class="tours__header">Авторские туры по Азии</h1>
           <p class="tours__motto">Открой для себя Азию</p>
-          <a href="#" class="tours__button">Подробнее</a>
+          <a href="#" class="tours__button button--color--red">Подробнее</a>
           </div>
         </section>
         <section class="htours">
           <div class="container">
             <div class="htours__header">
-        <h2 class="htours__header-name">Горящие туры</h2>
+        <p class="htours__header-name">Горящие туры</з>
             <img src="./img/flame.png" alt="" class="htours__header-icon">
           </div>
         <ul class="htours__list">
@@ -70,7 +70,9 @@
                 </li>
               </ul>
               <p class="htours__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-              <a href="#" class="htours__button">Смотреть</a>
+              <div class="htours__button-wrapper">
+              <a href="#" class="htours__button button--color--white">Смотреть</a>
+            </div>
             </div>
           </li>
           <li class="htours__item">
@@ -88,7 +90,9 @@
                 </li>
               </ul>
               <p class="htours__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-              <a href="#" class="htours__button">Смотреть</a>
+              <div class="htours__button-wrapper">
+              <a href="#" class="htours__button button--color--white">Смотреть</a>
+            </div>
             </div>
           </li>
           <li class="htours__item">
@@ -106,7 +110,9 @@
                 </li>
               </ul>
               <p class="htours__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить значение систем массового участия.</p>
-              <a href="#" class="htours__button">Смотреть</a>
+              <div class="htours__button-wrapper">
+              <a href="#" class="htours__button button--color--white">Смотреть</a>
+            </div>
             </div>
           </li>
         </ul>
@@ -117,17 +123,17 @@
         <h2 class="news__header-name">Новости и акции</h2>
       <ul class="news__list">
         <li class="news__item">
-          <img src="#" alt="" class="news__img">
+          <img src="./img/plane.png" alt="Дешевые путевки" class="news__img">
             <div class="news__tblock">
-          <div class="news__date">Декабрь 2019</div>
+          <date class="news__date">Декабрь 2019</date>
           <h3 class="news__header">Дешевые путевки на Новый Год!</h3>
           <p class="news__text">Проведи новый год в Тайланде</p>
             </div>
         </li>
         <li class="news__item">
-          <img src="#" alt="" class="news__img">
+          <img src="./img/Surfer.png" alt="Акция для серфингистов" class="news__img">
           <div class="news__tblock">
-          <div class="news__date">Декабрь 2019</div>
+          <date class="news__date">Декабрь 2019</date>
           <h3 class="news__header">Акция для серфингистов!</h3>
           <p class="news__text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного пути!</p>
             </div>
@@ -136,7 +142,7 @@
       <div class="paginator">
         <div class="paginator__display">Страница 1 из 7</div>
         <ul class="paginator__list">
-          <li class="paginator__item">
+          <li class="paginator__item paginator__item--active">
             <a href="#" class="paginator__link">1</a>
           </li>
           <li class="paginator__item">
@@ -161,17 +167,21 @@
       </div>
     </div>
       </section>
-      <section class="about-us">
+      <section class="section">
         <div class="container">
-        <img src="#" alt="" class="about-us__img-back">
+        <div class="about-us">
+        <img src="./img/gates.png" alt="" class="about-us__img-back">
         <div class="about-us__front">
-        <img src="#" alt="" class="about-us__img-front">
+        <img src="./img/mountains.png" alt="" class="about-us__img-front">
         <div class="about-us__info">
         <h2 class="about-us__header">О нас</h2>
-        <p class="about-us__text">Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
-        <a href="#" class="about-us__button">Подробнее</a>
+<div class="about-us__text">
+        <p> Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
+      </div>
+        <a href="#" class="about-us__button button--color--red">Подробнее</a>
       </div>
     </div>
+  </div>
     </div>
       </section>
   </main>
