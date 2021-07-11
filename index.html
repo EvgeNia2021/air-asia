@@ -10,11 +10,11 @@
 </head>
 <body>
   <div class="wrapper">
-    <div class="container">
-    <header class="header">
+    <section class="section">
       <div class="container">
+        <header class="header">
       <a href="/air-asia/index.html" class="logo">
-      <img src="./img/logo.png" alt="" class="logo__pic">
+      <img src="./img/logo.png" alt="air asia logo" class="logo__pic">
       </a>
       <nav class="menu">
         <ul class="menu__list">
@@ -38,19 +38,23 @@
           <p class="contacts__break">Обед: 14:00 - 14:30</p>
         </div>-->
        </address> 
-      </div>  
+  
     </header>
-    
+  </div>  
+</section>
       <main class="main-content">
-        <section class="tours">
+        <section class="section">
           <div class="container">
+            <div class="tours">
           <h1 class="tours__header">Авторские туры по Азии</h1>
           <p class="tours__motto">Открой для себя Азию</p>
-          <a href="#" class="tours__button button--color--red">Подробнее</a>
-          </div>
+          <a href="#" class="button button--color--red">Подробнее</a>
+        </div>
+        </div>
         </section>
-        <section class="htours">
+        <section class="section">
           <div class="container">
+            <div class="htours">
             <div class="htours__header">
         <p class="htours__header-name">Горящие туры</з>
             <img src="./img/flame.png" alt="" class="htours__header-icon">
@@ -62,11 +66,11 @@
               <div class="htours__name">Тайланд</div>
               <ul class="htours__conditions">
                 <li class="htours__extra">
-                  <img src="#" alt="" class="htours__nights-icon">
+                  <img src="./img/calendar.png" alt="иконка количество ночей" class="htours__nights-icon">
                   <p class="htours__nights-text">7- 12 ночей</p>
                 </li>
                 <li class="htours__extra">
-                  <img src="#" alt="" class="htours__meals-icon">
+                  <img src="./img/meal.png" alt="иконка количество кормлений" class="htours__meals-icon">
                   <p class="htours__meals-text">Завтраки</p>
                 </li>
               </ul>
@@ -82,11 +86,11 @@
               <div class="htours__name">Бали</div>
               <ul class="htours__conditions">
                 <li class="htours__extra">
-                  <img src="#" alt="" class="htours__nights-icon">
+                  <img src="./img/calendar.png" alt="иконка количество ночей" class="htours__nights-icon">
                   <p class="htours__nights-text">7- 12 ночей</p>
                 </li>
                 <li class="htours__extra">
-                  <img src="#" alt="" class="htours__meals-icon">
+                  <img src="./img/meal.png" alt="иконка количество кормлений" class="htours__meals-icon">
                   <p class="htours__meals-text">Завтраки</p>
                 </li>
               </ul>
@@ -102,11 +106,11 @@
               <div class="htours__name">Индонезия</div>
               <ul class="htours__conditions">
                 <li class="htours__extra">
-                  <img src="#" alt="" class="htours__nights-icon">
+                  <img src="./img/calendar.png" alt="иконка количество ночей" class="htours__nights-icon">
                   <p class="htours__nights-text">7- 12 ночей</p>
                 </li>
                 <li class="htours__extra">
-                  <img src="#" alt="" class="htours__meals-icon">
+                  <img src="./img/meal.png" alt="иконка количество кормлений" class="htours__meals-icon">
                   <p class="htours__meals-text">Завтраки</p>
                 </li>
               </ul>
@@ -118,10 +122,13 @@
           </li>
         </ul>
       </div>
+    </div>
       </section>
       <section class="news">
         <div class="container">
-        <h2 class="news__header-name">Новости и акции</h2>
+          <div class="news__header-name">
+        <h2>Новости и акции</h2>
+      </div>
       <ul class="news__list">
         <li class="news__item">
           <img src="./img/plane.png" alt="Дешевые путевки" class="news__img">
@@ -171,25 +178,28 @@
       <section class="section">
         <div class="container">
         <div class="about-us">
+          <div class="about-us__back">
         <img src="./img/gates.png" alt="" class="about-us__img-back">
+      </div>
         <div class="about-us__front">
-        <img src="./img/mountains.png" alt="" class="about-us__img-front">
+       <!-- <img src="./img/mountains.png" alt="" class="about-us__img-front">-->
         <div class="about-us__info">
         <h2 class="about-us__header">О нас</h2>
 <div class="about-us__text">
         <p> Сайт рыбатекст поможет дизайнеру, верстальщику, вебмастеру сгенерировать несколько абзацев более менее осмысленного текста рыбы на русском языке, а начинающему оратору отточить навык публичных выступлений в домашних условиях. </p>
       </div>
-        <a href="#" class="about-us__button button--color--red">Подробнее</a>
       </div>
+      <a href="#" class="button button--color--red">Подробнее</a>
     </div>
   </div>
     </div>
       </section>
   </main>
-  <footer class="footer">
-    <div class="container">
+  <footer class="footer-container">
+    <div class="container footer-container__content">
+      <div class="footer">
     <a href="/air-asia/index.html" class="logo">
-    <img src="#" alt="" class="logo__pic">
+    <img src="./img/logo.png" alt="" class="logo__pic">
     </a>
     <nav class="footer-menu">
       <ul class="footer-menu__list">
@@ -205,21 +215,17 @@
       </ul>
     </nav>
     <ul class="social">
-      <li class="social__item">
-        <a href="#" class="social__link">
-        <img src="#" alt="" class="social__img"></a>
+      <li class="social__item social__item--icon--telegram">
+        <a href="#" class="social__link"></a>
       </li>
-      <li class="social__item">
-        <a href="#" class="social__link">
-        <img src="#" alt="" class="social__img"></a>
+      <li class="social__item social__item--icon--vk">
+        <a href="#" class="social__link"></a>
       </li>
-      <li class="social__item">
-        <a href="#" class="social__link">
-        <img src="#" alt="" class="social__img"></a>
+      <li class="social__item social__item--icon--fb">
+        <a href="#" class="social__link"></a>
       </li>
-      <li class="social__item">
-        <a href="#" class="social__link">
-        <img src="#" alt="" class="social__img"></a>
+      <li class="social__item social__item--icon--insta">
+        <a href="#" class="social__link"></a>
       </li>
     </ul>
     <address class="footer-contacts">
@@ -227,8 +233,8 @@
       <a href="tel:+78007003030" class="footer-contacts__phone">8 800 700 30 30</a>
     </address>
   </div>
+</div>
     </footer>
-  </div>
 </div>
 </body>
 </html>

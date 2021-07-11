@@ -13,12 +13,8 @@ a {
   text-decoration: none;
 }
 
-.ul {
-  padding: 0;
-  margin: 0;
-}
 
-ul li {
+ul, li {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -46,22 +42,25 @@ margin: 0;
 .header {
   height: 123px;
   position: relative;
-  margin-bottom: 46px;
+  margin-bottom: 72px;
 }
 
-.logo__pic {
+.logo {
   display: block;
   position: absolute;
-  width: 85px;
-  height: 36px;
   top: 29px;
   left: 0;
 }
 
+.logo__pic {
+  width: 85px;
+  height: 36px;
+}
+
 .menu {
   position: absolute;
-  top: 42px;
-  left: 164px;
+  top: 38px;
+  left: 163px;
 }
 
 .contacts {
@@ -72,10 +71,33 @@ margin: 0;
   text-align: right;
 }
 
+.footer-contacts {
+  position: absolute;
+  top: 42px;
+  right: 0;
+  font-style: normal;
+  text-align: right;
+}
+
+.footer-contacts__text {
+  color: #9A9A9A;
+  font-size: 11px;
+  font-style: normal;
+}
+
+.footer-contacts__phone {
+font-style: normal;
+font-size: 26px;
+}
+
 .menu__item {
   display: inline-block;
   vertical-align: middle;
-  margin-right: 54px;
+  margin-right: 51px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
 }
 
 .menu__link {
@@ -96,6 +118,7 @@ color: #DA0100;
 .contacts__workhours {
   font-size: 13px;
   font-weight: normal;
+  text-decoration: underline;
 }
 
 .contacts__workhours:hover {
@@ -105,22 +128,23 @@ background-color: #EDEDED;
 .tours {
   width: 511px;
   height: 333px;
+  margin-bottom: 246px;
 }
 
 .tours__header {
   font-size: 72px;
   font-weight: 700;
-  line-height: 1.1;
-margin-bottom: 18px;
+  line-height: 1.4;
+  margin-bottom: 23px;
 }
 
 .tours__motto {
   font-size: 18px;
   font-weight: normal;
-  margin-bottom: 33px;
+  margin-bottom: 47px;
 }
 
-.tours__button {
+.button {
   background: #F5170E;
   border-radius: 35px;
   padding: 18px 40px;
@@ -134,7 +158,7 @@ margin-bottom: 18px;
   }
 
 .htours {
-margin-bottom: 127px;
+margin-bottom: 120px;
 margin-right: 12px;
 
 }
@@ -144,25 +168,24 @@ margin-right: 12px;
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 51px;
+
 }
 
-.htours__header-icon {
-
-margin-left: 285px;
-}
 
 .htours__item {
   min-height: 449px;
-  width: 350px;
+  width: 361px;
   background-color: #fff;
   border-radius: 4px;
   display: inline-block;
-  margin-right: 15px;
+  margin-right: 18px;
+ 
 }
 
-.htour__item:last-child {
+.htours__item:last-child {
   margin-right: 0;
 }
+
 
 .htours__pic {
   min-height: 144px;
@@ -172,7 +195,7 @@ margin-left: 285px;
 .htours__tblock {
 width: 350px;
 height: 305px;
-padding: 33px 22px 26px; 
+padding: 27px 22px 26px; 
 color: #303030 ;
 }
 
@@ -180,7 +203,7 @@ color: #303030 ;
  color: #303030 ;
  font-weight: bold;
  font-size: 24px;
- margin-bottom: 23px;
+ margin-bottom: 2px;
  
 }
 
@@ -198,7 +221,7 @@ margin-right: 0;
 
 .htours__text {
  font-size: 14px;
- margin-bottom: 24px;
+ margin-bottom: 49px;
 }
 
 .htours__button {
@@ -236,13 +259,33 @@ background: #DA0100;
   
 }
 
+.news {
+  margin-bottom: 146px;
+}
+
+.news__list {
+  margin-bottom: 52px;
+}
+
+.news__header-name, h2 {
+  font-weight: bold;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+
 .news__item {
-width: 520px;
+width: 557px;
 display: inline-block;
 vertical-align: top;
 position: relative;
 border-radius: 4px;
 overflow: hidden;
+margin-right: 20px;
+}
+
+.news__item:last-child {
+margin-right: 0;
 }
 
 .news__img {
@@ -269,11 +312,9 @@ margin-bottom: 13px;
 .news__header {
   font-size: 24px;
   margin-bottom: 4px;
+  font-weight: bold;
 }
 
-.news {
-  margin-bottom: 55px;
-}
 
 .paginator {
   text-align: center;
@@ -307,4 +348,157 @@ margin-bottom: 13px;
 .paginator__item--active .paginator__link {
 background: #fff;
 color: #F5170E;
+}
+
+.about-us {
+  margin-bottom: 53px;
+}
+
+.about-us__back {
+  content: "";
+  display: inline-block;
+  vertical-align: top;
+  width: 490px;
+  height: 505px;
+  background: url("./img/gates.png") center center / cover no-repeat;
+
+}
+
+.about-us__front {
+  background: url(./img/mountains.png) center center / cover no-repeat;
+  padding: 70px 82px;
+  width: 785px;
+  height: 455px;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: -142px;
+  margin-top: 97px;
+}
+
+.about-us__header {
+  color: #000000;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 37px;
+}
+
+.about-us__text {
+  font-weight: normal;
+  font-size: 16px;
+  color: #060606;
+  margin-bottom: 43px;
+ width: 502px;
+ line-height: 1.7;
+}
+
+.about-us__info {
+  margin-bottom: 84px;
+}
+
+.about-us__text p {
+  margin-bottom: 25px;
+}
+
+.about-us__text p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-container__content {
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer {
+  height: 146px;
+  position: relative;
+}
+
+.footer-menu {
+  position: absolute;
+  top: 59px;
+  left: 144px;
+}
+
+.footer-menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 51px;
+}
+
+.footer-menu__item:last-child {
+  margin-right: 0;
+}
+
+.footer-menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-menu__link:hover {
+color: #DA0100;
+}
+
+.footer .logo {
+  display: block;
+  position: absolute;
+  top: 45px;
+  left: 0;
+}
+
+.footer .logo__pic {
+  width: 85px;
+  height: 36px;
+}
+
+.social {
+top: 49px;
+left: 702px;
+position: absolute;
+}
+
+.social__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+.social__item:last-child {
+  margin-right: 0;
+}
+
+.social__link {
+  display: block;
+  text-decoration: none;
+  width: 36px;
+  height: 36px;
+  background: center center no-repeat;
+}
+
+.social__item--icon--telegram .social__link {
+  background-image: url(./img/telegram.png);
+}
+
+.social__item--icon--vk .social__link {
+  background-image: url(./img/vk.png);
+}
+
+.social__item--icon--fb .social__link {
+  background-image: url(./img/f.png);
+}
+
+.social__item--icon--insta .social__link {
+  background-image: url(./img/in.png);
+}
+.social__item--icon--telegram:hover .social__link {
+  background-image: url(./img/t.png);
+}
+.social__item--icon--vk:hover .social__link {
+  background-image: url(./img/vk2.png);
+}
+
+.social__item--icon--fb:hover .social__link {
+  background-image: url(./img/f2.png);
+}
+
+.social__item--icon--insta:hover .social__link {
+  background-image: url(./img/in2.png);
 }
