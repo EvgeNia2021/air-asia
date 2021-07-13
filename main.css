@@ -232,7 +232,6 @@ color: #FFFFFF;
 
 .htours__conditions {
 margin-bottom: 25px;
-text-align: center;
 }
 
 .htours__item {
@@ -267,8 +266,6 @@ text-align: center;
 
 .htours__extra {
   display: inline-block;
-  vertical-align: top;
-  width: 136px;
   margin-right: 28px;
 }
 
