@@ -66,7 +66,7 @@ img {
 .header {
   height: 123px;
   position: relative;
-  margin-bottom: 72px;
+  margin-bottom: 70px;
 }
 
 .header__container {
@@ -144,7 +144,7 @@ img {
 }*/
 
 .tours {
-  margin-bottom: 248px;
+  margin-bottom: 249px;
 }
 
 .tours__header {
@@ -204,8 +204,6 @@ img {
 
 .htours {
   margin-bottom: 123px;
-  margin-right: 12px;
-
 }
 
 .subtitle {
@@ -225,18 +223,18 @@ color: #FFFFFF;
 }
 
 .htours__header {
-  margin-bottom: 51px;
+  margin-bottom: 52px;
   
 }
 
 .htours__header-icon {
   display: inline-block;
-  margin-left: 5px;
+  margin-left: 11px;
 }
 
 
 .htours__conditions {
-margin-bottom: 24px;
+margin-bottom: 25px;
 text-align: center;
 }
 
@@ -246,7 +244,7 @@ text-align: center;
   background-color: #fff;
   border-radius: 4px;
   display: inline-block;
-  margin-right: 18px;
+  margin-right: 24px;
   overflow: hidden;
 }
 
@@ -266,7 +264,7 @@ text-align: center;
   color: #303030;
   font-weight: bold;
   font-size: 24px;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 
 }
 
@@ -303,7 +301,8 @@ text-align: center;
 
 .htours__text {
   font-size: 14px;
-  margin-bottom: 28px;
+  margin-bottom: 22px;
+  line-height: 1.5;
 }
 
 .news {
@@ -413,12 +412,12 @@ text-align: center;
 
 .about-us__front {
   background: url(./img/mountains.png) center center / cover no-repeat;
-  padding: 72px 82px;
+  padding: 72px 81px;
   width: 785px;
   height: 455px;
   display: inline-block;
   vertical-align: top;
-  margin-left: -142px;
+  margin-left: -140px;
   margin-top: 97px;
   border-radius: 4px;
 }
