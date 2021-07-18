@@ -1,0 +1,32 @@
+
+.contacts {
+  top: 26px;
+  right: 0;
+  font-style: normal;
+  text-align: right;
+}
+
+.footer-contacts {
+  top: 46px;
+}
+
+.contacts__text {
+  color: #9A9A9A;
+  font-size: 11px;
+  font-style: normal;
+  }
+  
+  .contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  display: block;
+  }
+  
+  .contacts__workhours {
+  font-size: 13px;
+  font-weight: normal;
+  text-decoration: underline;
+  display: block;
+  margin-top: -7px;
+  }
+  

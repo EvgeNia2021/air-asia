@@ -1,0 +1,302 @@
+.hero {
+  margin-bottom: 177px;
+}
+.tours__text-section {
+width: 45%;
+margin-bottom: 104px;
+
+}
+
+.tours__header {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-bottom: 24px;
+  max-width: 511px;
+}
+
+.tours__motto {
+  font-size: 18px;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+.htours {
+  margin-bottom: 127px;
+}
+
+
+
+.htours__header-icon {
+  display: inline-block;
+  margin-left: 11px;
+}
+
+
+
+.htours__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.htours__item {
+  
+  width: calc(100% / 3 - 18px);
+
+}
+
+.htour {
+  min-height: 449px;
+  background-color: #fff;
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.htours__item:last-child {
+  margin-right: 0;
+}
+
+
+.htours__tblock {
+  padding: 33px 16px 26px 22px;
+  color: #303030;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.htours__name {
+  color: #303030;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 20px;
+
+}
+
+.htours__extra {
+  display: flex;
+  justify-content: space-between;
+  
+} 
+
+.htours__extra:last-child {
+  margin-right: 0;
+}
+
+.htours__conditions {
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 28px;
+
+  }
+  
+.htours__nights-text {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.htours__nights-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  
+}
+
+.htours__meals-text {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.htours__meals-icon {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+} 
+
+.htours__text {
+  font-size: 14px;
+  margin-bottom: 22px;
+  line-height: 1.5;
+}
+
+.news {
+  margin-bottom: 146px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.news__subtitle-container {
+  margin-bottom: 51px;
+}
+
+.news__list {
+  margin-bottom: 53px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+
+.news__item {
+
+  margin-right: 2%;
+  flex: 1;
+}
+
+.single-news {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+  
+}
+
+.news__item:last-child {
+  margin-right: 0;
+}
+
+
+.single-news__tblock {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 25px 30px;
+  min-height: 164px;
+  
+}
+
+.single-news__date {
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+
+.single-news__header {
+  font-size: 24px;
+  margin-bottom: 3px;
+  font-weight: bold;
+}
+
+.about-us {
+  margin-bottom: 55px;
+  display: flex;
+}
+
+.about-us__back {
+  content: "";
+  width: 490px;
+  height: 505px;
+  background: url("./img/gates.png") center center / cover no-repeat;
+  border-radius: 4px;
+  overflow: hidden;
+  display: block;
+}
+
+.about-us__front {
+  background: url(../../img/mountains.png) center center / cover no-repeat;
+  padding: 72px 81px;
+  max-width: 785px;
+  min-height: 455px;
+  margin-left: -140px;
+  margin-top: 97px;
+  border-radius: 4px;
+}
+.about-us__subtitle-container {
+margin-bottom: 39px;
+}
+.about-us__text {
+  font-weight: normal;
+  font-size: 16px;
+  color: #060606;
+  margin-bottom: 20px;
+  width: 502px;
+  line-height: 1.7;
+}
+
+.about-us__info {
+  margin-bottom: 69px;
+}
+
+.about-us__text p {
+  margin-bottom: 25px;
+}
+
+.about-us__text p:last-child {
+  margin-bottom: 0;
+}
+
+.excursions {
+  background: #F2F2F2;
+  color: #303030;
+  padding: 98px 0;
+  
+}
+
+.excursion {
+display: flex;
+margin-bottom: 50px;
+}
+
+
+.excursion__img {
+  width: 40%;
+  margin-right: 5%;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+.excursion__tblock {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.excursion__name {
+  margin-bottom: 33px;
+  
+}
+
+.excursion__text {
+  line-height: 1.7;
+  margin-bottom: 50px;
+}
+
+.inner-section {
+  background: #F4F5F5;
+  color: #1A1B1E;
+  padding: 90px;
+}
+
+.inner-section__title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 66px;
+}
+
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.partners__item {
+  margin-bottom: 26px;
+}
+
+.partners__link {
+text-decoration: none;
+display: flex;
+width: 250px;
+height: 100px;
+align-items: center;
+}
+
+.partners__item:nth-child(4n) {
+  margin-left: 0;
+justify-content: flex-end;
+}

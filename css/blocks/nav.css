@@ -1,0 +1,78 @@
+.menu {
+  top: 38px;
+  left: 165px;
+}
+
+.menu__item {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 51px;
+}
+
+.menu__item:last-child {
+  margin-right: 0;
+}
+
+.menu__link {
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.menu__link:hover {
+  color: #DA0100;
+}
+
+.button {
+  border-radius: 35px;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  
+}
+
+.htours__button-wrapper {
+display: flex;
+justify-content: left;
+margin-top: auto;
+}
+
+
+
+.button:hover {
+  background: #DA0100;
+}
+
+.button--color--white {
+  background: #FFFFFF;
+  color: #F5170E;
+  padding: 18px 30px;
+  border: 1px solid #F5170E;
+}
+
+.button--color--white:hover {
+  background: #F5170E;
+  color: #fff;
+}
+
+.button--color--red {
+  background: #F5170E;
+  padding: 18px 40px;
+  border: 1px transparent;
+}
+
+.button--color--red:hover {
+  background: #DA0100;
+}
+
+.button--color--milky {
+  background: #F2F2F2;
+  color: #F5170E;
+  padding: 18px 40px;
+  border: 1px solid #F5170E;
+}
+
+.button--color--milky:hover {
+  background-color: #F5170E;
+  color: #FFFFFF;
+}

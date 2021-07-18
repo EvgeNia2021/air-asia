@@ -3,17 +3,33 @@
 
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=1200, initial-scale=1.0">
   <title>air-asia</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="./css/layout/base.css">
+  <link rel="stylesheet" href="./css/layout/normalize.css">
+  <link rel="stylesheet" href="./css/layout/fonts.css">
+
+  <link rel="stylesheet" href="./css/blocks/header.css">
+  <link rel="stylesheet" href="./css/blocks/logo.css">
+  <link rel="stylesheet" href="./css/blocks/contacts.css">
+  <link rel="stylesheet" href="./css/blocks/nav.css">
+  <link rel="stylesheet" href="./css/blocks/breadcrumbs.css">
+  <link rel="stylesheet" href="./css/blocks/content.css">
+  <link rel="stylesheet" href="./css/blocks/pagination.css">
+  <link rel="stylesheet" href="./css/blocks/footer.css">
+  <link rel="stylesheet" href="./css/blocks/socials.css">
 </head>
 
 <body>
-  <div class="wrapper">
+  <div class="wrapper main-page-wrapper">
+    <div class="wrapper__content">
+      <section class="hero">
+        <div class="container hero__container">
     <header class="header">
-      <div class="container header__container">
+        <div class="header__col">
         <a href="/air-asia/index.html" class="logo">
           <img src="./img/logo.png" alt="air asia logo" class="logo__pic">
         </a>
@@ -23,13 +39,15 @@
               <a href="/air-asia/index.html" class="menu__link">Главная</a>
             </li>
             <li class="menu__item">
-              <a href="#" class="menu__link">Услуги</a>
+              <a href="./services.html" class="menu__link">Услуги</a>
             </li>
             <li class="menu__item">
               <a href="#" class="menu__link">Отзывы</a>
             </li>
           </ul>
         </nav>
+      </div>
+      <div class="header__col header__col--align--right">
         <address class="contacts">
           <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
 
@@ -41,14 +59,16 @@
         </address>
       </div>
     </header>
-    <main class="main-content">
-      <section class="section tours">
-        <div class="container">
+        <div class="tours__text-section">
           <h1 class="tours__header">Авторские туры по Азии</h1>
           <p class="tours__motto">Открой для себя Азию</p>
-          <a href="#" class="button button--color--red">Подробнее</a>
+          <div class="tours__button">
+          <a href="#" class="button button--color--red">Подробнее</a></div>
         </div>
+      </div>
       </section>
+
+    <main class="main-content">
       <section class="section">
         <div class="container">
           <div class="htours">
@@ -57,7 +77,7 @@
               <img src="./img/flame.png" alt="" class="htours__header-icon">
             </div>
             <ul class="htours__list">
-              <li class="htours__item">
+              <li class="htours__item htour">
                 <img src="./img/river.png" alt="" class="htours__pic">
                 <div class="htours__tblock">
                   <div class="htours__name">Тайланд</div>
@@ -73,10 +93,11 @@
                   </ul>
                   <p class="htours__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
                     значение систем массового участия.</p>
-                    <a href="#" class="button button--color--white">Смотреть</a>
+                    <div class="htours__button-wrapper">
+                    <a href="#" class="button button--color--white">Смотреть</a> </div>
                 </div>
               </li>
-              <li class="htours__item">
+              <li class="htours__item htour">
                 <img src="./img/pool.png" alt="" class="htours__pic">
                 <div class="htours__tblock">
                   <div class="htours__name">Бали</div>
@@ -92,10 +113,11 @@
                   </ul>
                   <p class="htours__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
                     значение систем массового участия.</p>
-                    <a href="#" class="button button--color--white">Смотреть</a>
+                    <div class="htours__button-wrapper">
+                    <a href="#" class="button button--color--white">Смотреть</a></div>
                 </div>
               </li>
-              <li class="htours__item">
+              <li class="htours__item htour">
                 <img src="./img/ocean.png" alt="" class="htours__pic">
                 <div class="htours__tblock">
                   <div class="htours__name">Индонезия</div>
@@ -111,7 +133,8 @@
                   </ul>
                   <p class="htours__text">Равным образом постоянное обеспечение нашей деятельности позволяет оценить
                     значение систем массового участия.</p>
-                    <a href="#" class="button button--color--white">Смотреть</a>
+                    <div class="htours__button-wrapper">
+                    <a href="#" class="button button--color--white">Смотреть</a></div>
                 </div>
               </li>
             </ul>
@@ -124,20 +147,20 @@
             <h2 class="subtitle subtitle--white">Новости и акции</h2>
           </div>
           <ul class="news__list">
-            <li class="news__item">
+            <li class="news__item single-news">
               <img src="./img/plane.png" alt="Дешевые путевки" class="news__img">
-              <div class="news__tblock">
-                <div class="news__date">Декабрь 2019</div>
-                <h3 class="news__header">Дешевые путевки на Новый Год!</h3>
-                <p class="news__text">Проведи новый год в Тайланде</p>
+              <div class="single-news__tblock">
+                <div class="single-news__date">Декабрь 2019</div>
+                <h3 class="single-news__header">Дешевые путевки на Новый Год!</h3>
+                <p class="single-news__text">Проведи новый год в Тайланде</p>
               </div>
             </li>
-            <li class="news__item">
+            <li class="news__item single-news">
               <img src="./img/surfer.png" alt="Акция для серфингистов" class="news__img">
-              <div class="news__tblock">
-                <div class="news__date">Декабрь 2019</div>
-                <h3 class="news__header">Акция для серфингистов!</h3>
-                <p class="news__text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного
+              <div class="single-news__tblock">
+                <div class="single-news__date">Декабрь 2019</div>
+                <h3 class="single-news__header">Акция для серфингистов!</h3>
+                <p class="single-news__text">В сезон больших волн скидка на путевку в Тайланд на остров серфенгистов. Удачного
                   пути!</p>
               </div>
             </li>
@@ -193,9 +216,11 @@
         </div>
       </section>
     </main>
+  </div>
     <footer class="footer-container">
       <div class="container footer-container__content">
-        <div class="footer">
+        <div class="footer footer-container__section">
+          <div class="footer__col">
           <a href="/air-asia/index.html" class="logo footer-logo">
             <img src="./img/logo.png" alt="" class="logo__pic">
           </a>
@@ -212,6 +237,8 @@
               </li>
             </ul>
           </nav>
+        </div>
+          <div class="footer__col footer__col--align--right">
           <ul class="social">
             <li class="social__item social__item--icon--telegram">
               <a href="#" class="social__link"></a>
@@ -232,6 +259,7 @@
           </address>
         </div>
       </div>
+    </div>
     </footer>
   </div>
 </body>

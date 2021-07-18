@@ -1,0 +1,42 @@
+.header {
+  padding-top: 29px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-services {
+  margin-bottom: 7px;
+}
+
+.header__col {
+display: flex;
+align-items: center;
+}
+
+.header__col--align--right {
+justify-content: flex-end;
+}
+
+.top-line {
+min-height: 415px;
+background: url(../../img/headline.png) center center / cover no-repeat;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+padding-bottom: 23px;
+}
+
+.top-line__container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-title {
+  font-size: 72px;
+  font-weight: 700;
+  line-height: 1;
+}
