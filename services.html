@@ -9,7 +9,6 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./main.css">
-  <link rel="stylesheet" href="./css/layout/normalize.css">
 </head>
 
 <body>
@@ -18,15 +17,15 @@
       <div class="container top-line__container">
         <header class="header-services header">
           <div class="header__col">
-            <a href="/air-asia/index.html" class="logo">
+            <a href="./index.html" class="logo">
               <img src="./img/logo.png" alt="air asia logo" class="logo__pic">
             </a>
             <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="/air-asia/index.html" class="menu__link">Главная</a>
+                  <a href="./index.html" class="menu__link">Главная</a>
                 </li>
-                <li class="menu__item">
+                <li class="menu__item menu__item--active">
                   <a href="#" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
@@ -68,7 +67,8 @@
         <div class="container">
           <ul class="excursions__list">
             <li class="excursions__item excursion">
-              <img src="./img/waterfall.png" class="excursion__img" alt="">
+              <div class="excursion__img">
+              <img src="./img/waterfall.png" class="excursion__img-elem" alt=""></div> 
               <div class="excursion__tblock">
                 <h2 class="excursion__name subtitle subtitle--black">Водопад Янг-бей</h2>
                 <div class="excursion__text">
@@ -77,11 +77,12 @@
                     выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
                     универсальный код речей.</p>
                 </div>
-                <a href="#" class="button button--color--milky">Подробнее</a>
+                <a href="#" class="button button--color--white">Подробнее</a>
               </div>
             </li>
             <li class="excursions__item excursion">
-              <img src="./img/monkeys.png" class="excursion__img" alt="">
+              <div class="excursion__img">
+              <img src="./img/monkeys.png" class="excursion__img-elem" alt=""></div>
               <div class="excursion__tblock">
                 <h2 class="excursion__name subtitle subtitle--black">Остров обезьян</h2>
                 <div class="excursion__text">
@@ -90,13 +91,15 @@
                     выступлений в домашних условиях. При создании генератора мы использовали небезизвестный
                     универсальный код речей.</p>
                 </div>
-                <a href="#" class="button button--color--milky">Подробнее</a>
+          
+                <a href="#" class="button button--color--white">Подробнее</a>
+              </div>
             </li>
           </ul>
-          <div class="paginator">
+          <div class="paginator paginator--theme--dark">
             <div class="paginator__display">Страница 1 из 7</div>
             <ul class="paginator__list">
-              <li class="paginator__item paginator__item--active--inside">
+              <li class="paginator__item paginator__item--active">
                 <a href="#" class="paginator__link">1</a>
               </li>
               <li class="paginator__item">
@@ -121,6 +124,7 @@
           </div>
         </div>
       </section>
+    </main>
       <section class="inner-section">
         <div class="container">
           <h2 class="inner-section__title">Партнеры</h2>
@@ -160,21 +164,21 @@
           </ul>
         </div>
       </section>
-    </main>
+   
     <footer class="inner-footer">
       <div class="container inner-footer__container">
         <div class="footer">
           <div class="footer__col">
-            <a href="/air-asia/index.html" class="logo footer-logo">
+            <a href="./index.html" class="logo footer-logo">
               <img src="./img/logo.png" alt="" class="logo__pic">
             </a>
             <nav class="menu footer-menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="/air-asia/index.html" class="menu__link">Главная</a>
+                  <a href="./index.html" class="menu__link">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__link">Услуги</a>
+                  <a href="./services.html" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
                   <a href="#" class="menu__link">Отзывы</a>
