@@ -1,25 +1,29 @@
 .hero {
-  margin-bottom: 177px;
+  margin-bottom: 280px;
 }
-.tours__text-section {
+
+.hero__text-section {
 width: 45%;
-margin-bottom: 104px;
 
 }
 
-.tours__header {
+.hero__header {
   font-size: 72px;
   font-weight: 700;
   line-height: 1.4;
   margin-bottom: 24px;
   max-width: 511px;
 }
+ 
 
-.tours__motto {
+.hero__motto {
   font-size: 18px;
   font-weight: normal;
   margin-bottom: 30px;
 }
+
+  
+
 .htours {
   margin-bottom: 127px;
 }
@@ -78,7 +82,7 @@ margin-bottom: 104px;
 .htours__extra {
   display: flex;
   justify-content: space-between;
-  
+  margin-right: 32px;
 } 
 
 .htours__extra:last-child {
@@ -88,37 +92,26 @@ margin-bottom: 104px;
 .htours__conditions {
   margin-bottom: 25px;
   display: flex;
-  justify-content: space-between;
-  margin-right: 28px;
+  
 
   }
   
-.htours__nights-text {
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-.htours__nights-icon {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 10px;
-  
-}
-
-.htours__meals-text {
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-.htours__meals-icon {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 10px;
-} 
-
 .htours__text {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.htours__icon {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  
+}
+
+
+
+.htours__text-desc {
   font-size: 14px;
   margin-bottom: 22px;
   line-height: 1.5;
@@ -220,7 +213,7 @@ margin-bottom: 39px;
 }
 
 .about-us__info {
-  margin-bottom: 69px;
+  margin-bottom: 87px;
 }
 
 .about-us__text p {
@@ -256,7 +249,9 @@ display: flex;
 .excursions__item {
   margin-bottom: 52px;
 }
-
+.excursions__item:last-child {
+  margin-bottom: 0;
+}
 
 .excursion__img {
   width: 40%;
@@ -267,7 +262,7 @@ display: flex;
 
 .excursion__tblock {
   flex: 1;
-  margin-top: 13px;
+  padding-top: 13px;
 }
 
 .excursion__name {
