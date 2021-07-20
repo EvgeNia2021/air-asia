@@ -1,5 +1,5 @@
 .hero {
-  margin-bottom: 280px;
+  margin-bottom: 249px;
 }
 
 .hero__text-section {
@@ -196,7 +196,7 @@ width: 45%;
   padding: 72px 202px 72px 81px;
   max-width: 785px;
   min-height: 455px;
-  margin-left: -140px;
+  margin-left: -136px;
   margin-top: 97px;
   border-radius: 4px;
 }
@@ -272,7 +272,7 @@ display: flex;
 
 .excursion__text {
   line-height: 1.7;
-  margin-bottom: 50px;
+  margin-bottom: 32px;
 }
 
 .inner-section {
@@ -315,3 +315,5 @@ filter: grayscale(100%);
   margin-left: 0;
 justify-content: flex-end;
 }
+
+
