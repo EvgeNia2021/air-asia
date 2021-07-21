@@ -40,15 +40,18 @@
   font-size: 14px;
   text-transform: uppercase;
   box-sizing: border-box;
-  
+
 }
 
-.htours__button-wrapper {
+.htours__button-container {
 display: flex;
-justify-content: left;
 margin-top: auto;
 }
 
+.about-us__button-container {
+display: flex;
+margin-top: auto;
+}
 
 
 .button:hover {
@@ -68,13 +71,12 @@ margin-top: auto;
 }
 
 
-.excursion__button {
+.excursion__button-container {
   display: flex;
-  justify-content: left;
   margin-top: auto;
 }
 
-.hero__button {
+.hero__button-container {
   display: flex;
   justify-content: left;
   margin-top: auto;

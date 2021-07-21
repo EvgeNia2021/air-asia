@@ -177,7 +177,7 @@ width: 45%;
 }
 
 .about-us {
-  margin-bottom: 55px;
+  margin-bottom: 50px;
   display: flex;
 }
 
@@ -213,7 +213,7 @@ margin-bottom: 39px;
 }
 
 .about-us__info {
-  margin-bottom: 87px;
+  margin-bottom: 68px;
 }
 
 .about-us__text p {
@@ -315,5 +315,4 @@ filter: grayscale(100%);
   margin-left: 0;
 justify-content: flex-end;
 }
-
 
