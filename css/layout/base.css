@@ -55,16 +55,16 @@ button {
   border: none;
   background: transparent;
   cursor: pointer;
- }
+}
 
- table {
+table {
   border-collapse: collapse;
   border-spacing: 0;
- }
+}
 
 .wrapper {
   overflow: hidden;
-  
+
   min-height: 100%;
   min-width: 1200px;
   display: flex;
@@ -88,10 +88,10 @@ button {
 }
 
 .hero__container {
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-min-height: 529px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 529px;
 
 }
 
@@ -105,14 +105,14 @@ min-height: 529px;
 
 .subtitle--white {
   color: #FFFFFF;
-  }
-  
-  .subtitle--black {
-    color: #000000;
-  }
-  
-  .htours__subtitle-container {
-    margin-bottom: 52px;
-    display: flex;
-    align-items: center;
-  }
+}
+
+.subtitle--black {
+  color: #000000;
+}
+
+.htours__subtitle-container {
+  margin-bottom: 52px;
+  display: flex;
+  align-items: center;
+}

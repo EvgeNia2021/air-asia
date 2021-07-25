@@ -3,7 +3,7 @@
 }
 
 .hero__text-section {
-width: 45%;
+  width: 45%;
 
 }
 
@@ -14,7 +14,7 @@ width: 45%;
   margin-bottom: 24px;
   max-width: 511px;
 }
- 
+
 
 .hero__motto {
   font-size: 18px;
@@ -22,7 +22,7 @@ width: 45%;
   margin-bottom: 30px;
 }
 
-  
+
 
 .htours {
   margin-bottom: 127px;
@@ -43,7 +43,7 @@ width: 45%;
 }
 
 .htours__item {
-  
+
   width: calc(100% / 3 - 18px);
 
 }
@@ -83,7 +83,7 @@ width: 45%;
   display: flex;
   justify-content: space-between;
   margin-right: 32px;
-} 
+}
 
 .htours__extra:last-child {
   margin-right: 0;
@@ -92,21 +92,21 @@ width: 45%;
 .htours__conditions {
   margin-bottom: 25px;
   display: flex;
-  
 
-  }
-  
+
+}
+
 .htours__text {
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 .htours__icon {
   display: flex;
   justify-content: space-between;
   margin-right: 10px;
-  
+
 }
 
 
@@ -133,7 +133,7 @@ width: 45%;
   margin-bottom: 53px;
   display: flex;
   justify-content: space-between;
-  
+
 }
 
 
@@ -147,7 +147,7 @@ width: 45%;
   position: relative;
   border-radius: 4px;
   overflow: hidden;
-  
+
 }
 
 .news__item:last-child {
@@ -162,7 +162,7 @@ width: 45%;
   bottom: 0;
   padding: 25px 30px;
   min-height: 164px;
-  
+
 }
 
 .single-news__date {
@@ -200,9 +200,11 @@ width: 45%;
   margin-top: 97px;
   border-radius: 4px;
 }
+
 .about-us__subtitle-container {
-margin-bottom: 39px;
+  margin-bottom: 39px;
 }
+
 .about-us__text {
   font-weight: normal;
   font-size: 16px;
@@ -228,9 +230,10 @@ margin-bottom: 39px;
 .page-content {
   background: #fff;
   color: #303030;
-  padding: 96px 0;
+  padding: 98px 0 86px;
 
 }
+
 /*.excursions {
   
   padding: 98px 0;
@@ -238,17 +241,18 @@ margin-bottom: 39px;
 }*/
 
 .excursions__list {
-margin-bottom: 66px;
+  margin-bottom: 66px;
 
 }
 
 .excursion {
-display: flex;
+  display: flex;
 }
 
 .excursions__item {
   margin-bottom: 52px;
 }
+
 .excursions__item:last-child {
   margin-bottom: 0;
 }
@@ -267,7 +271,7 @@ display: flex;
 
 .excursion__name {
   margin-bottom: 31px;
-  
+
 }
 
 .excursion__text {
@@ -278,13 +282,13 @@ display: flex;
 .inner-section {
   background: #F4F5F5;
   color: #1A1B1E;
-  padding: 78px 0;
+  padding: 86px 0 63px;
 }
 
 .inner-section__title {
   font-size: 48px;
   font-weight: bold;
-  margin-bottom: 64px;
+  margin-bottom: 66px;
 }
 
 .partners {
@@ -294,25 +298,185 @@ display: flex;
 }
 
 .partners__item {
-  margin-bottom: 20px;
- 
+  margin-bottom: 27px;
+
 }
 
 .partners__link {
-text-decoration: none;
-display: flex;
-width: 250px;
-height: 100px;
-align-items: center;
-filter: grayscale(100%);
+  text-decoration: none;
+  display: flex;
+  width: 250px;
+  height: 100px;
+  align-items: center;
+  filter: grayscale(100%);
 }
 
 .partners__link:hover {
   filter: grayscale(0%);
+  transition: 1s;
 }
 
 .partners__item:nth-child(4n) {
   margin-left: 0;
-justify-content: flex-end;
+  justify-content: flex-end;
 }
 
+.welcome {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  background: url("../../img/bg.png") center bottom / cover no-repeat;
+}
+
+.central {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: url("../../img/shades.png") center top no-repeat;
+}
+
+.central__logo {
+  margin-bottom: -4px;
+}
+
+.central__desc {
+  display: flex;
+  flex-direction: column;
+  padding: 73px 156px 50px;
+  align-items: center;
+}
+
+.central__motto {
+  font-size: 18px;
+  font-weight: 400px;
+}
+
+.reviews {
+  column-count: 2;
+  column-gap: 27px;
+  margin-bottom: 51px;
+}
+
+.review {
+  display: inline-flex;
+  flex-direction: column;
+  padding: 54px 33px 32px;
+  background: #F4F5F5;
+  border-radius: 5px;
+}
+
+
+.reviews__item {
+  margin-bottom: 18px;
+}
+
+.avatar {
+  width: 142px;
+  height: 142px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.review__header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 27px;
+}
+
+.review__user {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: #2E77A4;
+  margin-bottom: 11px;
+
+}
+
+.review__user::after {
+  content: url(./img/vk-blue.png);
+  height: 30px;
+}
+
+.review__tags {
+  display: flex;
+  align-items: flex-start;
+}
+
+.review__photo {
+  margin-right: 17px;
+}
+
+.review__title {
+  font-size: 30px;
+  color: #1A1B1E;
+  font-weight: bold;
+  margin-bottom: 13px;
+
+}
+
+.review__content-text {
+  margin-bottom: 49px;
+  line-height: 1.7;
+  color: #818181;
+}
+
+.review__date {
+  color: #1A1B1E;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.separator {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-image: url("../../img/separator.png");
+  min-height: 362px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #FFFFFF;
+
+}
+
+.separator__front-picture {
+  position: absolute;
+  margin-top: -235px;
+  margin-left: 620px;
+  min-width: 487px;
+}
+
+.separator__content {
+  max-width: 46%;
+
+}
+
+.separator__title {
+  font-size: 48px;
+  font-weight: bold;
+
+  line-height: 1.6;
+}
+
+.page-title--reviews {
+  margin-top: -25px;
+}
+
+.inner-section--reviews {
+  padding: 63px 0 99px;
+}
+
+.page-content--reviews {
+  padding: 95px 0 86px;
+
+}
+
+.inner-section__title--reviews {
+  margin-bottom: 57px;
+}

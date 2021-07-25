@@ -11,21 +11,21 @@
 }
 
 .header__col {
-display: flex;
-align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .header__col--align--right {
-justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .top-line {
-min-height: 415px;
-background: url(../../img/headline.png) center center / cover no-repeat;
-overflow: hidden;
-display: flex;
-flex-direction: column;
-padding-bottom: 26px;
+  min-height: 412px;
+  background: url(../../img/headline.png) center center / cover no-repeat;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 23px;
 }
 
 .top-line__container {
