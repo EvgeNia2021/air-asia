@@ -17,7 +17,7 @@
 }
 .form__row {
   display: flex;
-  margin-bottom: 32px;
+  margin-bottom: 31px;
 }
 
 .form__input {
@@ -46,6 +46,7 @@
 
 .form__input--textarea {
   height: 235px;
+  resize: none;
 }
 
 

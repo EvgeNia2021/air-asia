@@ -1,7 +1,5 @@
 .dropdown {
   position: relative;
-  display: flex;
-  justify-content: flex-end;
   
    
   }
@@ -32,6 +30,7 @@
 .dropdown__menu::after {
   content: "";
   display: block;
+  
   height: 65px;
   left: 0;
   right: 0;
@@ -50,10 +49,23 @@
     margin-top: -10px;
 }
 
+.dropdown__menu:before {
+  content: "";
+  display: block;
+  height: 65px;
+  
+  left: 0;
+  right: 0;
+  top: -10px;
+  position: absolute;
+}
+
 .dropdown__list {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  
+
 }
 
 .dropdown__link {

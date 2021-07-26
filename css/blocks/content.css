@@ -399,8 +399,9 @@
 }
 
 .review__user::after {
-  content: url(./img/vk-blue.png);
+  content: url(../../img/vk-blue.png);
   height: 30px;
+  margin-left: 5px;
 }
 
 .review__tags {
@@ -442,13 +443,14 @@
   flex-direction: column;
   justify-content: center;
   color: #FFFFFF;
+  position: relative;
 
 }
 
 .separator__front-picture {
   position: absolute;
-  margin-top: -235px;
-  margin-left: 620px;
+  top: 21px;
+  left: 1001px;
   min-width: 487px;
 }
 
@@ -466,6 +468,7 @@
 
 .page-title--reviews {
   margin-top: -25px;
+  margin-left: 4px;
 }
 
 .inner-section--reviews {
