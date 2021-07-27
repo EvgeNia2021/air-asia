@@ -393,9 +393,15 @@
   align-items: center;
   font-size: 24px;
   font-weight: bold;
-  color: #2E77A4;
-  margin-bottom: 11px;
+  color: #1A1B1E;
+  margin-bottom: 6px;
 
+}
+
+.review__user:hover {
+ color: #2E77A4;
+ text-decoration: underline;
+ transition: 0.5s;
 }
 
 .review__user::after {
@@ -436,27 +442,34 @@
 .separator {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   background-image: url("../../img/separator.png");
   min-height: 362px;
-  display: flex;
-  flex-direction: column;
   justify-content: center;
   color: #FFFFFF;
   position: relative;
 
 }
 
+.separator__container {
+  flex: 1;
+  margin: 0 auto;
+  width: 1141px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .separator__front-picture {
   position: absolute;
-  top: 21px;
-  left: 1001px;
+  bottom: 0;
+  right: 414px;
   min-width: 487px;
+  z-index: 1;
 }
 
 .separator__content {
   max-width: 46%;
-
+  z-index: 2;
 }
 
 .separator__title {
