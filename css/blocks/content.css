@@ -446,30 +446,30 @@
   min-height: 362px;
   justify-content: center;
   color: #FFFFFF;
-  position: relative;
+  
 
 }
 
 .separator__container {
   flex: 1;
-  margin: 0 auto;
-  width: 1141px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  position: relative;
+  
 }
 
 .separator__front-picture {
   position: absolute;
   bottom: 0;
-  right: 414px;
+  right: 34px;
   min-width: 487px;
-  z-index: 1;
+  
 }
 
 .separator__content {
   max-width: 46%;
-  z-index: 2;
+  
 }
 
 .separator__title {
